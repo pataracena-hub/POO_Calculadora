@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="387.0" prefWidth="328.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="patricio_aracena_m.poo_calculadora.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <HBox prefHeight="100.0" prefWidth="200.0">
+      <children>
+         <VBox prefHeight="200.0" prefWidth="100.0">
+            <children>
+               <Label text="Numero 1" />
+               <TextField fx:id="firstNumber" />
+            </children>
+         </VBox>
+         <VBox prefHeight="200.0" prefWidth="100.0">
+            <children>
+               <Label text="Numero 2" />
+               <TextField fx:id="secondNumber" />
+            </children>
+         </VBox>
+      </children>
+   </HBox>
+
+    <Label fx:id="welcomeText" />
+   <HBox prefHeight="100.0" prefWidth="200.0">
+      <children>
+         <Button mnemonicParsing="false" text="sumar" />
+         <Button mnemonicParsing="false" text="restar" />
+         <Button mnemonicParsing="false" text="multiplicar" />
+         <Button mnemonicParsing="false" text="dividir" />
+         <Button mnemonicParsing="false" text="modulo" />
+      </children>
+   </HBox>
+   <HBox prefHeight="100.0" prefWidth="200.0">
+      <children>
+         <Label text="Resultado" />
+         <Label prefHeight="14.0" prefWidth="89.0" text="Resultado Valor" />
+      </children>
+   </HBox>
+</VBox>
